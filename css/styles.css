@@ -8,6 +8,19 @@ body {
     color:#303030;
 }
 
+.nav-link{
+    text-transform: uppercase;
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+.bg-primary{
+    background-color: #f46669!important;
+}
+.bg-secondary{
+    background-color: #c7c57d!important;
+}
 .bg-vino{
     background-image: url(../img/principal1.jpg);
 }
@@ -22,7 +35,7 @@ body {
 .imagen-inferior > div{
     height: 30rem;
 }
-@media(min-wigth:768px){
+@media(min-width:768px){
     .imagen-superior > div,
     .imagen-inferior > div{
         height: 45rem;
@@ -33,8 +46,25 @@ body {
     order: 1;
 }
 
-@media(min-wigth){
+@media(min-width:768px){
     .imagen-inferior .bg-comida{
         order: unset;
     }
 }
+
+
+.imagen-superior .contenido{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.imagen-inferior .contenido{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.contenido p{
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
