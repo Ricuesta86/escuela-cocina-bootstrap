@@ -151,3 +151,13 @@ p{
     background-color: #df393c;
     border-color: #df393c;;
 }
+
+/* Footer */
+.footer{
+    border-bottom:10px solid #f46669 ;
+}
+
+.copyright{
+    font-size: 1rem;
+    font-weight: 700;
+}
