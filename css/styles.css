@@ -88,3 +88,37 @@ p{
     font-weight: 300;
     font-size: 1.6rem;
 }
+
+/* Próximas Clases */
+.clase{
+    background-color: #f5f5f5;
+}
+.card{
+    margin-bottom: 2rem;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.badge-secondary{
+    color: #000;
+    background-color: #c7c57d;
+}
+.card-meta span{
+    font-weight: 700;
+}
+.card-subtitle{
+    color: #f46669;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.card-body p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.card-body a{
+    color: #f46669;
+}
+.card-body a:hover{
+    color: #f46669;
+}
