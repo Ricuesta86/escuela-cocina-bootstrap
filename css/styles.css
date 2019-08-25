@@ -122,3 +122,32 @@ p{
 .card-body a:hover{
     color: #f46669;
 }
+
+/* Licenciatura */
+
+.licenciatura{
+    background-image: url(../img/chef_bg.jpg);
+    background-position:center center;
+    background-size: cover;
+}
+.estudia-licenciatura{
+    height: 38rem;
+}
+
+.estudia-licenciatura .contenido h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.estudia-licenciatura .contenido p{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.btn-primary{
+    background-color: #f46669;
+    border-color: #f46669;
+}
+.btn-primary:hover{
+    background-color: #df393c;
+    border-color: #df393c;;
+}
